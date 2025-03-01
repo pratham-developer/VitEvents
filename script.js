@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Buttons
     const loginBtn = document.getElementById("loginBtn")
     const signupBtn = document.getElementById("signupBtn")
+    const heroLogin = document.getElementById("heroLogin")
     const createEventBtn = document.getElementById("createEventBtn")
     const switchToSignup = document.getElementById("switchToSignup")
     const switchToLogin = document.getElementById("switchToLogin")
@@ -328,6 +329,10 @@ document.addEventListener("DOMContentLoaded", () => {
   
     if (signupBtn) {
       signupBtn.addEventListener("click", () => openModal(signupModal))
+    }
+
+    if(heroLogin){
+      heroLogin.addEventListener("click", () => openModal(signupModal))
     }
   
     if (createEventBtn) {
