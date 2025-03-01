@@ -310,7 +310,7 @@ input:checked + .toggle-slider:before {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://vit.ac.in/wp-content/uploads/2023/06/About-menu-image.webp");
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("hero.webp");
     background-size: cover;
     background-position: center;
     height: 100vh;
